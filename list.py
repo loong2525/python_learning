@@ -38,13 +38,13 @@ name.index("shi")                #查找列表中指定元素位置'
 
 
 #for 遍历列表
-
+# 把列表name的每个元素一次性地赋值给变量i
 for i in name:
     print(i.upper())
 for i in range(1,6,2):            #从1到6，步长为2;range(start,stop,step)
     print(i)
 
-
+#把列表number的每个元素一步步地赋值给变量num
 number = list(range(1,6))         #创建数字列表
 for num in number:  
     print(num**2)                 #python支持指数运算符**

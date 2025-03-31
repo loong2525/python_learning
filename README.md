@@ -4,7 +4,7 @@
 
 ## detail
 
-* [ÁÐ±í](list.py)
-* [×Öµä](dictionary.py)
+* [åˆ—è¡¨](list.py)
+* [å­—å…¸](dictionary.py)
 
 
