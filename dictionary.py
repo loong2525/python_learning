@@ -44,9 +44,15 @@ aliens=[alien_0, alien_1, alien_2]
 print(aliens)
 #注意：列表中的每一个字典都是独立的，可以修改
 # ~字典中的字典
-aliens={alien_0, alien_1, alien_2}
+#aliens={alien_0, alien_1, alien_2}
 # print(aliens)                 error: TypeError: unhashable type: 'dict'---字典直接作为键是被警告的
 #字典中的字典是不可变的，不能修改
-for color, points in aliens.items():            #用.items()方法遍历字典
+
+for color, points in alien_0.items():            #用.items()方法遍历字典
     print(color + ': ' + str(points))
 
+'''
+被function调用的函数
+'''
+def test():
+    print("the test function is called")
